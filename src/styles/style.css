@@ -1,0 +1,25 @@
+reset * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-color: var(--background);
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+main {
+  margin: 20px;
+}
+:root {
+  --bakgrunn: #0e1116;
+  --tekst: #faedd2;
+  --aksent: #ffca6f;
+  --blue_blob: #172a66;
+}
